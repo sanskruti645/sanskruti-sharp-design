@@ -3,7 +3,7 @@
 export const personalInfo = {
   name: "Sanskruti S.",
   tagline: "Final Year ENTC Student | Aspiring Software Engineer",
-  bio: "Polymath by day, Coder by night.",
+  bio: "Polymath by day. Coder by night.",
   email: "sanskruti645@gmail.com",
   linkedin: "https://www.linkedin.com/in/sanskruti-shinde-9044a9253/",
   github: "https://github.com/sanskruti645",
