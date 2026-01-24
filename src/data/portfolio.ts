@@ -76,7 +76,7 @@ export const publications = [
   {
     id: 1,
     title: "Advanced computer vision and deep learning for accurate fruit ripeness sorting: A multi-fruit approach",
-    conference: "3rd International Conference for Advancement in Technology (ICONAT)",
+    venue: "3rd International Conference for Advancement in Technology (ICONAT)",
     year: "2024",
     //abstract: "A comprehensive study on optimizing CNN architectures for edge device deployment with minimal accuracy loss.",
     link: "https://ieeexplore.ieee.org/abstract/document/10775178",
@@ -84,7 +84,7 @@ export const publications = [
   {
     id: 2,
     title: "Optimized Multithreaded Encryption for Enhanced Performance and Efficiency",
-    conference: "3rd International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)",
+    venue: "3rd International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)",
     year: "2025",
     //abstract: "Novel approach to decentralized identity management using zero-knowledge proofs.",
     link: "https://ieeexplore.ieee.org/abstract/document/11080805",
