@@ -14,7 +14,7 @@ export const personalInfo = {
 export const projects = [
   {
     id: 1,
-    title: "AI-Powered Code Analyzer",
+    title: "JobSearch AI",
     description: "An end to end AI tool that automatically finds relevant job openings, analyzes your resume, shows useful company insights and even sends you job alerts to make job searching faster and smarter. ",
     techStack: ["React", "Flask", "Python", "AWS", "NLP", "Groq AI", "Gemini AI", "PostgreSQL", "DynamoDB", "Selenium", "BeautifulSoup"],
     githubUrl: "https://github.com/sanskruti645/jobserach_ai",
@@ -53,58 +53,41 @@ export const projects = [
 export const experiences = [
   {
     id: 1,
-    company: "Tech Innovators Inc.",
-    role: "Software Engineering Intern",
-    duration: "May 2024 – Present",
-    location: "Remote",
+    company: "Faclon Labs",
+    role: "IoT Developer Intern",
+    duration: "06/2025 – 08/2025",
+    location: "Mumbai, India",
     highlights: [
-      "Developed RESTful APIs serving 10,000+ daily requests",
-      "Implemented CI/CD pipelines reducing deployment time by 40%",
-      "Collaborated with cross-functional teams on agile sprints",
+      "Joined as an IoT intern and simultaneously worked across two domains, IoT and R&D contributing to backend development, data pipelines, automation workflows, device configuration, and troubleshooting, in a high paced startup environment.",
+
+"Developed an Industrial IoT gateway that interfaces with Modbus RTU devices over RS485 and publishes structured sensor data to cloud platforms via MQTT, supporting 50+ device models, using Python.",
+
+"Engineered a robust IoT data system, designing a thread-safe Modbus polling mechanism with locking and register batching (70–80% efficiency gain) and an offline-first SQLite + MQTT pipeline ensuring 100% data retention and seamless reconnection.",
+
+"Provided cross-product technical support for 10+ enterprise clients, diagnosing issues in real-world deployments."
+
     ],
-  },
-  {
-    id: 2,
-    company: "StartupXYZ",
-    role: "Full Stack Developer Intern",
-    duration: "Jan 2024 – Apr 2024",
-    location: "Pune, India",
-    highlights: [
-      "Built responsive web applications using React and Node.js",
-      "Optimized database queries improving performance by 60%",
-      "Mentored junior interns on best coding practices",
-    ],
-  },
-  {
-    id: 3,
-    company: "University Research Lab",
-    role: "Research Assistant",
-    duration: "Aug 2023 – Dec 2023",
-    location: "College Campus",
-    highlights: [
-      "Contributed to machine learning research on image recognition",
-      "Published findings in international conference proceedings",
-      "Developed data processing pipelines for large datasets",
-    ],
-  },
+  }
+
+  
 ];
 
 export const publications = [
   {
     id: 1,
-    title: "Deep Learning Approaches for Real-Time Image Classification",
-    venue: "International Conference on Machine Learning Applications",
+    title: "Advanced computer vision and deep learning for accurate fruit ripeness sorting: A multi-fruit approach",
+    conference: "3rd International Conference for Advancement in Technology (ICONAT)",
     year: "2024",
-    abstract: "A comprehensive study on optimizing CNN architectures for edge device deployment with minimal accuracy loss.",
-    link: "https://doi.org/example",
+    //abstract: "A comprehensive study on optimizing CNN architectures for edge device deployment with minimal accuracy loss.",
+    link: "https://ieeexplore.ieee.org/abstract/document/10775178",
   },
   {
     id: 2,
-    title: "Blockchain-Based Identity Verification Systems",
-    venue: "IEEE International Symposium on Security",
-    year: "2023",
-    abstract: "Novel approach to decentralized identity management using zero-knowledge proofs.",
-    link: "https://doi.org/example2",
+    title: "Optimized Multithreaded Encryption for Enhanced Performance and Efficiency",
+    conference: "3rd International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)",
+    year: "2025",
+    //abstract: "Novel approach to decentralized identity management using zero-knowledge proofs.",
+    link: "https://ieeexplore.ieee.org/abstract/document/11080805",
   },
 ];
 
