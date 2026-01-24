@@ -8,7 +8,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/sanskruti-shinde-9044a9253/",
   github: "https://github.com/sanskruti645",
   //resumeUrl: "#", // Add resume PDF link
-  //photoUrl: "", // Optional: Add photo URL
+  photoUrl: "WhatsApp Image 2026-01-25 at 00.36.27.jpeg", // Optional: Add photo URL
 };
 
 export const projects = [
