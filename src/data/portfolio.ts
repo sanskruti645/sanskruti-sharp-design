@@ -94,39 +94,49 @@ export const publications = [
 export const extracurriculars = [
   {
     id: 1,
-    title: "Technical Head",
-    organization: "E-Cell, College Chapter",
-    duration: "2023 – 2024",
-    description: "Led a team of 15+ members organizing hackathons and technical workshops with 500+ participants.",
-    icon: "rocket",
+    title: "Delegate/Scholar",
+    organization: "Harvard College Project For Asian and International Relations (HPAIR)",
+    //duration: "2023 – 2024",
+    description: [
+      "Earned acceptance for the HPAIR Harvard Conference, a highly selective global forum, held at Harvard University, Cambridge, USA, chosen from 5,000+ applicants across 50+ countries.""
+    ],
+    //icon: "rocket",
   },
   {
     id: 2,
-    title: "Core Committee Member",
-    organization: "Coding Club",
-    duration: "2022 – Present",
-    description: "Organized weekly coding sessions and competitive programming contests for 200+ students.",
-    icon: "code",
+    title: "Chief Of Relations",
+    organization: "E-Cell, VIT Pune",
+    //duration: "2022 – Present",
+    description: [
+      "Led a 100+ member team across Startup Connect, Sponsorship, Corporate & Public Relations, driving strategy and measurable engagement.",
+"Co-led Earn & Sell and Startup initiatives, generating ₹200K+ revenue and ₹125K+ student profits, secured nationally renowned speakers for E-Talks, and raised ₹1M seed funding via Startup Showcase.",
+"Led large-scale outreach and collaborations, addressing 4,000+ students during induction, interviewing 700+ candidates, and building partnerships with top E-Cells including IIT Kharagpur to co-host a National Entrepreneurship Awareness Drive"
+    ],
+   // icon: "code",
   },
   {
     id: 3,
-    title: "Event Coordinator",
-    organization: "Technical Festival",
-    duration: "2023",
-    description: "Managed logistics and coordination for college's annual tech fest with 2000+ attendees.",
-    icon: "calendar",
+    title: "Head Of Content",
+    organization: "VEH: Official Art Club, VIT Pune",
+    //duration: "2023",
+    description: [
+      "Initiated the college’s first Marathi literature discussion segment, and conducted workshops and creative writing activities for community of 1000+ students"
+    ],
+    //icon: "calendar",
   },
   {
     id: 4,
-    title: "Open Source Contributor",
-    organization: "Various Projects",
-    duration: "2022 – Present",
-    description: "Active contributor to open source projects with 50+ merged pull requests.",
-    icon: "git-branch",
+    title: "Animal Rescue Coordinator",
+    organization: "Social Welfare And Development Committee, VITPune",
+    //duration: "2022 – Present",
+    description: [
+      "Led a team of 10+ volunteers to rescue and rehabilitate stray animals, organizing adoption drives that connected them with safe and caring homes"
+    ],
+    //icon: "git-branch",
   },
 ];
 
-export const achievements = [
+/*export const achievements = [
   {
     id: 1,
     title: "1st Place, National Hackathon",
@@ -162,7 +172,7 @@ export const achievements = [
     year: "2022, 2023, 2024",
     description: "Consistent academic excellence",
   },
-];
+];*/
 
 export const navLinks = [
   { label: "Projects", href: "#projects" },

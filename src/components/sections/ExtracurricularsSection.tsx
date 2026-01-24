@@ -62,9 +62,17 @@ export function ExtracurricularsSection() {
                     {activity.organization}
                   </p>
 
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {activity.description}
-                  </p>
+                  {Array.isArray(activity.description) ? (
+                    <ul className="text-sm text-muted-foreground leading-relaxed list-disc list-inside space-y-1">
+                      {activity.description.map((point, i) => (
+                        <li key={i}>{point}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {activity.description}
+                    </p>
+                  )}
                 </div>
               </div>
             </motion.article>
