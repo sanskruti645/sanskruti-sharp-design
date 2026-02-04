@@ -136,6 +136,10 @@ export const extracurriculars = [
   },
 ];
 
+export const achievements = [
+  // Add your achievements here
+];
+
 /*export const achievements = [
   {
     id: 1,
