@@ -98,7 +98,7 @@ export const extracurriculars = [
     organization: "Harvard College Project For Asian and International Relations (HPAIR)",
     //duration: "2023 – 2024",
     description: [
-      "Earned acceptance for the HPAIR Harvard Conference, a highly selective global forum, held at Harvard University, Cambridge, USA, chosen from 5,000+ applicants across 50+ countries.""
+      "Earned acceptance for the HPAIR Harvard Conference, a highly selective global forum, held at Harvard University, Cambridge, USA, chosen from 5,000+ applicants across 50+ countries."
     ],
     //icon: "rocket",
   },
